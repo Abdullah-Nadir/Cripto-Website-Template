@@ -1,0 +1,165 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: #BBBBBB;
+}
+
+/* Navbar section */
+
+.navbar {
+  font-family: 'Merriweather', serif;
+  margin-bottom: 50px;
+}
+
+.nav-container {
+  padding: 0 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  margin: 0 2%;
+}
+
+.nav-form {
+  margin-left: 200px;
+}
+
+
+
+/* title section */
+
+#title {
+  background-color: #92B4EC;
+  padding: 3% 15% 5%;
+  color: #FFFFFF;
+}
+
+.title-heading {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.title-input {
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.title-btn {
+  font-size: 1.3rem;
+  margin: 0 10px 3px;
+}
+
+.title-img {
+  width: 80%;
+  margin-left: 94px;
+}
+
+/* features section */
+
+#features {
+  padding: 9% 15%;
+  text-align: center;
+}
+
+.feature-img {
+  width: 80%;
+  height: 30%;
+}
+
+.feature-heading {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  margin: 15% 0;
+}
+
+.feature-para {
+  padding: 0 9%;
+}
+
+/* testimonials section */
+
+#testimonials {
+  background-color: #FFE69A;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.carousel-content {
+  padding: 7% 15%;
+}
+
+.testimonial-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  height: 94px;
+  border-radius: 12%;
+  margin: 20px;
+}
+
+/* download section */
+
+#download {
+  margin: 9% 15%;
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #FFD24C;
+  color: #FFFFFF;
+}
+
+.download-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin: 10px;
+}
+
+/* footer section */
+
+#footer {
+  padding: 0 15% 5%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 10px;
+}
+
+/* Media query section */
+
+@media (max-width: 1050px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-btn {
+    margin: 20px;
+  }
+
+  .title-img {
+    width: 60%;
+    margin-left: 0;
+  }
+
+  .nav-form {
+    margin-left: 100px;
+  }
+
+}
